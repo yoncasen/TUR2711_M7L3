@@ -1,14 +1,27 @@
 import random
 import string
 
-def generate_password(length=12):
+characters_low = string.ascii_letters
+characters_medium = string.ascii_letters + string.digits
+characters_high = string.ascii_letters + string.digits + string.punctuation
+
+def generate_password(length=12, password_strongness = 2):
     """Belirtilen uzunlukta rastgele bir şifre oluşturur."""
-    characters = string.ascii_letters + string.digits + string.punctuation
+
+
     password = ''
     for i in range(length):
-        password += random.choice(characters)
+        if password_strongness == 1:
+            password += random.choice(characters_low)
+        elif password_strongness == 2:
+            password += random.choice(characters_medium)
+        elif password_strongness == 3:
+            password += random.choice(characters_high)
     return password
 
-# Kullanım örneği
-password_length = 12  # İstediğiniz herhangi bir şifre uzunluğunu seçebilirsiniz
-print("Yeni şifreniz:", generate_password(password_length))
+# // CONFIG
+password_length     =  12
+password_strongness =  2
+
+# // GENERATE
+print("Yeni şifreniz:", generate_password(password_length, password_strongness))
