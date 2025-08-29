@@ -15,11 +15,13 @@ Programı çalıştırmak için bilgisayarınızda Python 3.6 veya daha üst bir
 ## Testleri Çalıştırma
 
 Burada yazılmış testler pytest kütüphanesini kullanır. Yüklemek için şu komutu yazın:
+
 ```bash
 pip install pytest
 ```
 
 Daha sonra testleri proje dizininin kök klasöründen şu komutla çalıştırabilirsiniz:
+
 ```bash
 pytest
 ```
@@ -27,3 +29,4 @@ pytest
 ## ✍️ Yazar
 
 Kodland
+Yonca Şen
